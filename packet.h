@@ -5,7 +5,7 @@
 
 
 // What is the appropraite maximum size for the data?
-#define SIZE = 256
+#define SIZE = 1024
 
 struct packet
 {
