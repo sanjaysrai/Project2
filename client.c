@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // auxillary function to print out errors and exit to save space
 void error(char* msg)
@@ -26,8 +27,8 @@ int main(int argc, char** argv)
 	server_hostname = argv[1];
     	server_port_number = atoi(argv[2]);
     	filename = argv[3];
-	prob_loss = argv[4];
-	prob_corruption = argv[5];
+	prob_loss = atoi(argv[4]);
+	prob_corruption = atoi(argv[5]);
 	
 	return 0;
 }

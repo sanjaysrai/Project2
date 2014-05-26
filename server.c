@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 
 // need to move this function to a seperate header file (used in both client.c and server.c)
 void error(char *msg) 

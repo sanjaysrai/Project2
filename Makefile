@@ -1,6 +1,6 @@
 CC = gcc
 
-all: client
+all: client server
 
 client: client.c
 
