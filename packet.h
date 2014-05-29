@@ -5,12 +5,12 @@
 
 
 // What is the appropraite maximum size for the data?
-#define SIZE = 1024
+#define SIZE 256
 
 struct packet
 {
 	// Want to use an enum for type instead of an int
-	int typeOfPacket;
+	int type;
 	// Data in packet
 	char data[SIZE];
 	// The amount of space the packet takes
